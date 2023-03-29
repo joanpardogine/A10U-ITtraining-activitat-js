@@ -7,7 +7,7 @@ function mostraAlerta(){
 let titolPart1 = "IT"
 let titolPart2 = "Training"
 let missatge = "Entra la resposta";
-let tema = "HTML";
+let tecnologia = "Lorem";
 
 let preguntes = [
   {
@@ -35,7 +35,7 @@ titol.appendChild(spanTitol2);
 
 let spanTitol3 = document.createElement("span")
 spanTitol3.classList.add("verd")
-spanTitol3.innerHTML=tema;
+spanTitol3.innerHTML=tecnologia;
 titol.appendChild(spanTitol3);
 
 let elementMain = document.getElementsByTagName("main")[0];
@@ -80,9 +80,14 @@ elementArticle.appendChild(divResposta);
 
 let botoSeguent = document.createElement("button");
 botoSeguent.addEventListener("click", mostraAlerta);
-botoSeguent.innerHTML = "Següent";
-
+botoSeguent.innerHTML = "Següent &gt;&gt;";
 elementArticle.appendChild(botoSeguent);
+
+let botoAnterior = document.createElement("button");
+botoAnterior.addEventListener("click", mostraAlerta);
+botoAnterior.innerHTML = "&lt;&lt; Anterior";
+elementArticle.appendChild(botoAnterior);
+
 elementMain.appendChild(elementArticle);
 
 
