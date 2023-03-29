@@ -19,7 +19,7 @@ tecnologia en la que es basa el teu joc (per exemple, es podria mostrar **```ITt
 1. Les preguntes que vulguis fer a l'usuari estaran emmagatzemades, **de moment**, en una variable de tipus **matriu** amb la següent estructura de dades de **```JavaScript```**.
 
 ```js
-    tipusPreg : "tx",
+    tipusPreg : "ra",
     enunciat  : "Què significa HTML?",
     respostaA : "Hyper Text Markup Language",
     respostaB : "Home Tool Markup Language",
