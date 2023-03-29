@@ -197,6 +197,6 @@ let preguntes = [
 
 # Primera part
 
-Crear un nou repositori remot amb el nom <CognomAlumne>-ITtraining, on <CognomAlumne> és el cognom de l'alumne, sense el nom de l'alumne. És important que respecteu tant els guions com les majúscules o minúscules del nom del repositori. I cal que sigui **privat** i convideu a l'usuari **```joanpardogine```** com a col·laborador.
+Crear un nou repositori remot amb el nom \<CognomAlumne>-A10U-ITtraining, on <CognomAlumne> és el cognom de l'alumne, sense el nom de l'alumne. És important que respecteu tant els guions com les majúscules o minúscules del nom del repositori. I cal que sigui **privat** i convideu a l'usuari **```joanpardogine```** com a col·laborador.
 
-Crear una branca amb el nom <CognomAlumne>-1aEntrega, on <CognomAlumne> és el cognom de l'alumne, sense el nom de l'alumne, en el fitxer **```README.md```** caldrà que detallis el tema (**```tecnologia```**) del teu **```serious games```**, i un mínim de 5 preguntes amb les corresponents respostes i indicant quina és la resposta correcta.
+Crear una branca amb el nom \<CognomAlumne>-1aEntrega, on <CognomAlumne> és el cognom de l'alumne, sense el nom de l'alumne, en el fitxer **```README.md```** caldrà que detallis el tema (**```tecnologia```**) del teu **```serious games```**, i un mínim de 5 preguntes amb les corresponents respostes i indicant quina és la resposta correcta.
