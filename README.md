@@ -70,7 +70,8 @@ El que es mostra és solament i exclusivament a títol d'exemple. No cal que sig
 ```js
 let preguntes = [
     {
-        tipusPreg : "tx",
+        tipusPreg : "ra",
+        tipusPreg : "ra",
         enunciat : "Què significa HTML?",
         respostaA : "Hyper Text Markup Language",
         respostaB : "Home Tool Markup Language",
