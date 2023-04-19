@@ -249,17 +249,17 @@ Per exemple:
 
 # A103 - Activitat 10 (3a part): IT training
 
-Abans de seguir, cal que fem un merge de la branca amb el nom **```<CognomAlumne>-1aEntrega```**, a on ja tenim tot al dia, amb la branca  **```main```**, on **```<CognomAlumne>```** és el cognom de l'alumne, sense el nom de l'alumne.
+Abans de seguir, cal que a partir de la branca **```<CognomAlumne>-1aEntrega```**, facis un **```pull request```** a la branca **```main```**. en el que anomenaràs a l'usuari **```joanpardogine```**, no cal que demanis que et faci una revisió (**```reviewer```**). I ja tindrem tots els canvis a la  **```main```**.
 
 Evidentment, per poder-ho fer, caldrà que l'alumne hagi fet i tingui aprovat pel professor la **A101 - Activitat 10 (1a part): IT training** i la **A102 - Activitat 10 (2a part): IT training**.
 
-Ara sí! A partir de la branca **```<CognomAlumne>-1aEntrega```**, cal que facis un **```pull request```** a la branca **```main```**. en el que anomenaràs a l'usuari **```joanpardogine```**, no cal que demanis que et faci una revisió (**```reviewer```**). I ja tindrem tots els canvis a la  **```main```**.
+Ara sí que ho tenim tot actualitzat al **```main```**! 
 
-Ara **cal que creis** una nova branca amb el nom **```<CognomAlumne>-3aEntrega```** des de la   **```main```**.
+1. **Cal que creis** una nova branca amb el nom **```<CognomAlumne>-3aEntrega```** des de la   **```main```**.
 
 > # NOTA: **ÉS IMPORTANT QUE LA NOVA BRANCA **```<CognomAlumne>-3aEntrega```** LA FACIS DES DE LA BRANCA ```main```**.
 
-Un cop creada la branca amb el nom **```<CognomAlumne>-3aEntrega```** cal que hi puguis TOTS els fitxers que hi ha en el meu repositori ([**```A10U-ITtraining-activitat-js```**](https://github.com/joanpardogine/A10U-ITtraining-activitat-js)).
+2. Un cop creada la branca amb el nom **```<CognomAlumne>-3aEntrega```** cal que hi puguis TOTS els fitxers que hi ha en el meu repositori ([**```A10U-ITtraining-activitat-js```**](https://github.com/joanpardogine/A10U-ITtraining-activitat-js)).
 
 I el que trobareu és el següent:
 
@@ -278,5 +278,5 @@ I el que trobareu és el següent:
 
 Com podeu veure apareixen totes les "meves" preguntes.
 
-1. El primer que cal que feu és que apareguin les vostres preguntes.
+3. Per últim cal que feu és que apareguin les vostres preguntes.
 
