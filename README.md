@@ -2,9 +2,9 @@
 
 ## Índex
 
-[1. A101 - Activitat 10 (1a part): IT training](./README.md#primera-part)
+[1. A101 - Activitat 10 (1a part): IT training](./README.md#a101---activitat-10-1a-part-it-training)
 
-[2. A102 - Activitat 10 (2a part): IT training](./README.md#segona-part)
+[2. A102 - Activitat 10 (2a part): IT training](./README.md#a102---activitat-10-2a-part-it-training)
 
 [3. A103 - Activitat 10 (3a part): IT training](./README.md#a103---activitat-10-3a-part-it-training)
 
