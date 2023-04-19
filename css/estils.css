@@ -2,7 +2,7 @@
 /* CSS Document */
 
 @font-face {
-  font-family: Antiga;
+  font-family: fontTerminal;
   src: url(../fonts/Arcade.ttf);
 }
 
@@ -62,8 +62,9 @@
   --botoInactiuText: var(--vermell);
 
   /* footer */
-  --footerText: var(--groc);
-  --footerFons: IndianRed;
+  --textPeuPagina: yellow;
+  --fonsPeuPagina: rgb(240, 146, 146);
+
 }
 /* -- FINAL Definició de constants a css -- */
 
@@ -87,13 +88,10 @@
 }
 /* -- FINAL Definició de classes per dotar de color als elements -- */
 
-/*   */
-
 .opcio:focus {
   outline-color: white;
 }
 
-/*   */
 
 /* -- Definició d'atributs que per defecte tindrà qualsevol element. */
 * {
@@ -119,7 +117,7 @@ header {
   display: flex;
   justify-content: center;
   padding-top: 10px;
-  font-family: Antiga;
+  font-family: fontTerminal;
   font-size: 7em;
   font-weight: 100;
 }
@@ -157,7 +155,7 @@ article h1.titolBranca{
 article span.titol {
   /* align-self: flex-start; */
   color: var(--negre);
-  font-family: Antiga;
+  font-family: fontTerminal;
   font-size: 4em;
   text-align: center;
 }
@@ -170,7 +168,7 @@ article span.titol {
 article span.resultat {
   /* align-self: flex-start; */
   color: var(--blau);
-  font-family: Antiga;
+  font-family: fontTerminal;
   font-size: 4em;
   text-align: center;
 }
@@ -376,7 +374,7 @@ button:disabled {
 
 footer {
   height: 5%;
-  background-color: var(--footerFons);
+  background-color: var(--fonsPeuPagina);
   padding-top: 10px;
   padding-right: 10px;
   opacity: 0.6;
@@ -385,7 +383,7 @@ footer {
 }
 
 footer span {
-  font-family: Antiga;
+  font-family: fontTerminal;
   font-size: 1.3em;
-  color: var(--footerText);
+  color: var(--textPeuPagina);
 }

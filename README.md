@@ -87,7 +87,7 @@ let preguntes = [
     <div class="respostes">
         <label class="opcio ample100">
             <input type="text" id="resp-01" name="resposta-1" placeholder="Ut enim ad minima veniam" />
-    </label>
+        </label>
     </div>
         <button>&gt;&gt; Anterior</button>
     <button>Següent &lt;&lt;</button>
@@ -107,20 +107,20 @@ let preguntes = [
     <div class="respostes">
         <label class="opcio ample45">
             <input type="checkbox" name="preg_XX" id="resp-XX-01"/>
-        <span>Seda ut perspiciatis unde omnis</span>
-    </label>
-    <label class="opcio ample45">
-        <input type="checkbox" name="preg_XX" id="resp-XX-02"/>
-        <span>Nemo enim ipsam voluptatem quia</span>
-    </label>
-    <label class="opcio ample45">
-        <input type="checkbox" name="preg_XX" id="resp-XX-03"/>
-        <span>At vero eos et accusamus et iusto odio</span>
-    </label>
-    <label class="opcio ample45">
-        <input type="checkbox" name="preg_XX" id="resp-XX-04"/>
-        <span>Et harum quidem rerum facilis est et expedita</span>
-    </label>
+            <span>Seda ut perspiciatis unde omnis</span>
+        </label>
+        <label class="opcio ample45">
+            <input type="checkbox" name="preg_XX" id="resp-XX-02"/>
+            <span>Nemo enim ipsam voluptatem quia</span>
+        </label>
+        <label class="opcio ample45">
+            <input type="checkbox" name="preg_XX" id="resp-XX-03"/>
+            <span>At vero eos et accusamus et iusto odio</span>
+        </label>
+        <label class="opcio ample45">
+            <input type="checkbox" name="preg_XX" id="resp-XX-04"/>
+            <span>Et harum quidem rerum facilis est et expedita</span>
+        </label>
     </div> <!-- FINAL <div class="respostes">-->
         <button><< Anterior</button>
         <button>Següent >></button>
@@ -142,19 +142,19 @@ let preguntes = [
         <label class="opcio ample45">
             <input type="radio" name="preg_XX" id="resp-XX-01"/>
         <span>Seda ut perspiciatis unde omnis</span>
-    </label>
-    <label class="opcio ample45">
-        <input type="radio" name="preg_XX" id="resp-XX-02"/>
-        <span>Nemo enim ipsam voluptatem quia</span>
-    </label>
-    <label class="opcio ample45">
-        <input type="radio" name="preg_XX" id="resp-XX-03"/>
-        <span>At vero eos et accusamus et iusto odio</span>
-    </label>
-    <label class="opcio ample45">
-        <input type="radio" name="preg_XX" id="resp-XX-04"/>
-        <span>Et harum quidem rerum facilis est et expedita</span>
-    </label>
+        </label>
+        <label class="opcio ample45">
+            <input type="radio" name="preg_XX" id="resp-XX-02"/>
+            <span>Nemo enim ipsam voluptatem quia</span>
+        </label>
+        <label class="opcio ample45">
+            <input type="radio" name="preg_XX" id="resp-XX-03"/>
+            <span>At vero eos et accusamus et iusto odio</span>
+        </label>
+        <label class="opcio ample45">
+            <input type="radio" name="preg_XX" id="resp-XX-04"/>
+            <span>Et harum quidem rerum facilis est et expedita</span>
+        </label>
     </div> <!-- FINAL <div class="respostes">-->
         <button><< Anterior</button>
     <button>Següent >></button>
@@ -234,3 +234,38 @@ Per exemple:
 ```
 
 4. Un cop fet tot això, cal que facis un **```pull request```** en el que demanaràs a l'usuari **```joanpardogine```** (**anomenant-lo**), que si us plau validi la fusió (**```merge```**), de la branca **```<CognomAlumne>-2aEntrega```** amb la **```<CognomAlumne>-1aEntrega```**.
+
+
+# Tercera part
+
+Abans de seguir, cal que fem un merge de la branca amb el nom **```<CognomAlumne>-1aEntrega```**, a on ja tenim tot al dia, amb la branca  **```main```**, on **```<CognomAlumne>```** és el cognom de l'alumne, sense el nom de l'alumne.
+
+Evidentment, per poder-ho fer, caldrà que l'alumne hagi fet i tingui aprovat pel professos la **primera part** i la **segona part**.
+
+Ara sí! A partir de la branca **```<CognomAlumne>-1aEntrega```**, cal que facis un **```pull request```** a la branca **```main```**. en el que anomenaràs a l'usuari **```joanpardogine```**, no cal que demanis que et faci una revisió (**```reviewer```**). I ja tindrem tots els canvis a la  **```main```**.
+
+Ara **cal que creis** una nova branca amb el nom **```<CognomAlumne>-3aEntrega```** des de la   **```main```**.
+
+> # NOTA: **ÉS IMPORTANT QUE LA NOVA BRANCA **```<CognomAlumne>-3aEntrega```** LA FACIS DES DE LA BRANCA ```main```**.
+
+Un cop creada la branca amb el nom **```<CognomAlumne>-3aEntrega```** cal que hi puguis TOTS els fitxers que hi ha en el meu repositori ([**```A10U-ITtraining-activitat-js```**](https://github.com/joanpardogine/A10U-ITtraining-activitat-js)).
+
+I el que trobareu és el següent:
+
+![part-03-0001](./img/part-03-0001.png)
+
+![part-03-0002](./img/part-03-0002.png)
+
+![part-03-0003](./img/part-03-0003.png)
+
+![part-03-0004](./img/part-03-0004.png)
+
+![part-03-0005](./img/part-03-0005.png)
+
+![part-03-0006](./img/part-03-0006.png)
+
+
+Com podeu veure apareixen totes les "meves" preguntes.
+
+1. El primer que cal que feu és que apareguin les vostres prtegruntes.
+
