@@ -3,8 +3,11 @@
 ## Índex
 
 [1. Primera part](./README.md#primera-part)
+
 [2. Segona part](./README.md#segona-part)
+
 [3. Tercera part](./README.md#tercera-part)
+
 
 <hr>
 
