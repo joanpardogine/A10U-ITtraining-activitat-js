@@ -65,7 +65,7 @@ function creaPregunta(index) {
     divResposta.setAttribute("name", "Resposta");
     divResposta.classList.add("respostes");
 
-    // Fins aquí tots els tipous de respostes són iguals! 
+    // Fins aquí tots els tipus de respostes són iguals! 
 
     let elementLabel = document.createElement("label");
     elementLabel.classList.add("opcio");

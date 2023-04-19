@@ -255,11 +255,16 @@ Evidentment, per poder-ho fer, caldrà que l'alumne hagi fet i tingui aprovat pe
 
 Ara sí que ho tenim tot actualitzat al **```main```**! 
 
-1. **Cal que creis** una nova branca amb el nom **```<CognomAlumne>-3aEntrega```** des de la   **```main```**.
+## **Punt 1. 3a part**
+
+**Cal que creis** una nova branca amb el nom **```<CognomAlumne>-3aEntrega```** des de la   **```main```**.
 
 > # NOTA: **ÉS IMPORTANT QUE LA NOVA BRANCA **```<CognomAlumne>-3aEntrega```** LA FACIS DES DE LA BRANCA ```main```**.
 
-2. Un cop creada la branca amb el nom **```<CognomAlumne>-3aEntrega```** cal que hi puguis TOTS els fitxers que hi ha en el meu repositori ([**```A10U-ITtraining-activitat-js```**](https://github.com/joanpardogine/A10U-ITtraining-activitat-js)).
+
+## **Punt 2. 3a part**
+
+Un cop creada la branca amb el nom **```<CognomAlumne>-3aEntrega```** cal que hi puguis TOTS els fitxers que hi ha en el meu repositori ([**```A10U-ITtraining-activitat-js```**](https://github.com/joanpardogine/A10U-ITtraining-activitat-js)).
 
 I el que trobareu és el següent:
 
@@ -278,5 +283,44 @@ I el que trobareu és el següent:
 
 Com podeu veure apareixen totes les "meves" preguntes.
 
-3. Per últim el que cal que feu és que apareguin les vostres preguntes.
+## **Punt 3. 3a part**
 
+Cal que feu és que apareguin les vostres preguntes.
+
+Dins de la funció ```function creaPregunta(index)```, des de l'inici i fins a la linia que comença amb ```// Fins aquí tots els tipus de respostes són iguals! ```, la creació de qualsevol tipus de pregunta és igual. Al igual que a partir de la linia que comença amb ```// A partir d'aquí tots els tipus de respostes TORNEN a ser iguals!``` fins al final, la creació de TOTS els tipus de pregunta és igual.
+
+```html
+    // Fins aquí tots els tipus de respostes són iguals! 
+
+    let elementLabel = document.createElement("label");
+    elementLabel.classList.add("opcio");
+    elementLabel.classList.add("ample100");
+
+    let elementInput = document.createElement("input");
+
+    elementInput.setAttribute("type", "text");
+    elementInput.setAttribute("id", `resp-0${index+1}`); // Pregunta #${index+1}
+    elementInput.setAttribute("name", "resposta1");
+    elementInput.setAttribute("placeholder", placeHolderEntraResposta);
+
+    elementLabel.appendChild(elementInput);
+
+    divResposta.appendChild(elementLabel);
+        
+    // A partir d'aquí tots els tipus de respostes TORNEN a ser iguals!
+```
+
+
+En el fitxer ```preguntes.js```, ara mateix es crea l'estrucutra de pregunta creant un element article com si fos per crear una pregunta de tipus ```tx```.
+
+## **Punt 4. 3a part**
+
+Modifica el fitxer ```preguntes.js```, perquè crei l'estructura de pregunta creant un element **```article```** tan si es tracta d'una pregunta de tipus ```tx``` (aquesta part ja la tens), com si es tracta d'una pregunta de tipus ```so```.
+
+## **Punt 5. 3a part**
+
+Modifica el fitxer ```preguntes.js```, perquè crei l'estructura de pregunta creant un element **```article```** tan si es tracta d'una pregunta de tipus ```tx``` (aquesta part ja la tens), com si es tracta si es tracta d'una pregunta de tipus ```ch```.
+
+## **Punt 6. 3a part**
+
+Modifica el fitxer ```preguntes.js```, perquè crei l'estructura de pregunta creant un element **```article```** tan si es tracta d'una pregunta de tipus ```tx``` (aquesta part ja la tens), com si es tracta si es tracta d'una pregunta de tipus ```ra```.
