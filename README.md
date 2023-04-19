@@ -248,7 +248,7 @@ Per exemple:
 
 Abans de seguir, cal que fem un merge de la branca amb el nom **```<CognomAlumne>-1aEntrega```**, a on ja tenim tot al dia, amb la branca  **```main```**, on **```<CognomAlumne>```** és el cognom de l'alumne, sense el nom de l'alumne.
 
-Evidentment, per poder-ho fer, caldrà que l'alumne hagi fet i tingui aprovat pel professos la **primera part** i la **segona part**.
+Evidentment, per poder-ho fer, caldrà que l'alumne hagi fet i tingui aprovat pel professor la **primera part** i la **segona part**.
 
 Ara sí! A partir de la branca **```<CognomAlumne>-1aEntrega```**, cal que facis un **```pull request```** a la branca **```main```**. en el que anomenaràs a l'usuari **```joanpardogine```**, no cal que demanis que et faci una revisió (**```reviewer```**). I ja tindrem tots els canvis a la  **```main```**.
 
@@ -275,5 +275,5 @@ I el que trobareu és el següent:
 
 Com podeu veure apareixen totes les "meves" preguntes.
 
-1. El primer que cal que feu és que apareguin les vostres prtegruntes.
+1. El primer que cal que feu és que apareguin les vostres preguntes.
 
