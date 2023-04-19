@@ -2,11 +2,11 @@
 
 ## Índex
 
-[1. Primera part](./README.md#primera-part)
+[1. A101 - Activitat 10 (1a part): IT training](./README.md#primera-part)
 
-[2. Segona part](./README.md#segona-part)
+[2. A102 - Activitat 10 (2a part): IT training](./README.md#segona-part)
 
-[3. Tercera part](./README.md#tercera-part)
+[3. A103 - Activitat 10 (3a part): IT training](./README.md#a103---activitat-10-3a-part-it-training)
 
 
 <hr>
@@ -203,7 +203,7 @@ let preguntes = [
 <hr>
 <br>
 
-# Primera part
+# A101 - Activitat 10 (1a part): IT training
 
 Crear un nou repositori remot amb el nom **```<CognomAlumne>-A10U-ITtraining```**, on **```<CognomAlumne>```** és el cognom de l'alumne, sense el nom de l'alumne. És important que respecteu tant els guions com les majúscules o minúscules del nom del repositori. I cal que sigui **privat** i convideu a l'usuari **```joanpardogine```** com a col·laborador.
     
@@ -212,11 +212,11 @@ Crear un nou repositori remot amb el nom **```<CognomAlumne>-A10U-ITtraining```*
 <br>
 <hr>
 
-# Segona part
+# A102 - Activitat 10 (2a part): IT training
 
 A partir de la branca amb el nom **```<CognomAlumne>-1aEntrega```**, crear una branca amb el nom **```<CognomAlumne>-2aEntrega```**, on **```<CognomAlumne>```** és el cognom de l'alumne, sense el nom de l'alumne. I caldrà que modifiquis el contingut del fitxer **```README.md```** per adequar el codi que tens fins ara amb les següents modificacions:
     
-1. Modifica tot allò que t'ha comentat el professor a la correcció de la primera part.
+1. Modifica tot allò que t'ha comentat el professor a la correcció de la A101 - Activitat 10 (1a part): IT training.
 
 2. Rectifica la variable **```correcta```** perquè sigui de tipus **```vector```**.
 
@@ -247,11 +247,11 @@ Per exemple:
 4. Un cop fet tot això, cal que facis un **```pull request```** en el que demanaràs a l'usuari **```joanpardogine```** (**anomenant-lo**), que si us plau validi la fusió (**```merge```**), de la branca **```<CognomAlumne>-2aEntrega```** amb la **```<CognomAlumne>-1aEntrega```**.
 
 
-# Tercera part
+# A103 - Activitat 10 (3a part): IT training
 
 Abans de seguir, cal que fem un merge de la branca amb el nom **```<CognomAlumne>-1aEntrega```**, a on ja tenim tot al dia, amb la branca  **```main```**, on **```<CognomAlumne>```** és el cognom de l'alumne, sense el nom de l'alumne.
 
-Evidentment, per poder-ho fer, caldrà que l'alumne hagi fet i tingui aprovat pel professor la **primera part** i la **segona part**.
+Evidentment, per poder-ho fer, caldrà que l'alumne hagi fet i tingui aprovat pel professor la **A101 - Activitat 10 (1a part): IT training** i la **A102 - Activitat 10 (2a part): IT training**.
 
 Ara sí! A partir de la branca **```<CognomAlumne>-1aEntrega```**, cal que facis un **```pull request```** a la branca **```main```**. en el que anomenaràs a l'usuari **```joanpardogine```**, no cal que demanis que et faci una revisió (**```reviewer```**). I ja tindrem tots els canvis a la  **```main```**.
 
