@@ -278,5 +278,5 @@ I el que trobareu és el següent:
 
 Com podeu veure apareixen totes les "meves" preguntes.
 
-3. Per últim cal que feu és que apareguin les vostres preguntes.
+3. Per últim el que cal que feu és que apareguin les vostres preguntes.
 
