@@ -1,5 +1,13 @@
 # Activitat 10: IT training
 
+## Índex
+
+[1. Primera part](./README.md#primera-part)
+[2. Segona part](./README.md#segona-part)
+[3. Tercera part](./README.md#tercera-part)
+
+<hr>
+
 **ITtraining** és un portal web que té com a objectiu oferir als usuaris una sèrie de [**```serious 
 games```**](https://en.wikipedia.org/wiki/Serious_game) (*jocs dissenyats amb un propòsit principal diferent del pur entreteniment*) basats en tecnologies web. A través d'aquesta web els usuaris podran demostrar els seus coneixements en **```HTML```**, **```CSS```**, **```JavaScript```**, **```Bootstrap```**, **```PHP```**, **```SQL```**, etc.
 
