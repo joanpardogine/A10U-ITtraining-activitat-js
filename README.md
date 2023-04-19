@@ -311,16 +311,16 @@ Dins de la funció ```function creaPregunta(index)```, des de l'inici i fins a l
 ```
 
 
-En el fitxer ```preguntes.js```, ara mateix es crea l'estrucutra de pregunta creant un element article com si fos per crear una pregunta de tipus ```tx```.
+En el fitxer ```preguntes.js```, ara mateix es crea l'estructura de pregunta creant un element article com si fos per crear una pregunta de tipus ```tx```.
 
 ## **Punt 4. 3a part**
 
-Modifica el fitxer ```preguntes.js```, perquè crei l'estructura de pregunta creant un element **```article```** tan si es tracta d'una pregunta de tipus ```tx``` (aquesta part ja la tens), com si es tracta d'una pregunta de tipus ```so```.
+Modifica el fitxer ```preguntes.js```, perquè crei l'estructura de pregunta creant un element **```article```** tant si es tracta d'una pregunta de tipus ```tx``` (aquesta part ja la tens), com si es tracta d'una pregunta de tipus ```so```.
 
 ## **Punt 5. 3a part**
 
-Modifica el fitxer ```preguntes.js```, perquè crei l'estructura de pregunta creant un element **```article```** tan si es tracta d'una pregunta de tipus ```tx``` (aquesta part ja la tens), com si es tracta si es tracta d'una pregunta de tipus ```ch```.
+Modifica el fitxer ```preguntes.js```, perquè crei l'estructura de pregunta creant un element **```article```** tant si es tracta d'una pregunta de tipus ```tx``` (aquesta part ja la tens), com si es tracta si es tracta d'una pregunta de tipus ```ch```.
 
 ## **Punt 6. 3a part**
 
-Modifica el fitxer ```preguntes.js```, perquè crei l'estructura de pregunta creant un element **```article```** tan si es tracta d'una pregunta de tipus ```tx``` (aquesta part ja la tens), com si es tracta si es tracta d'una pregunta de tipus ```ra```.
+Modifica el fitxer ```preguntes.js```, perquè crei l'estructura de pregunta creant un element **```article```** tant si es tracta d'una pregunta de tipus ```tx``` (aquesta part ja la tens), com si es tracta si es tracta d'una pregunta de tipus ```ra```.
