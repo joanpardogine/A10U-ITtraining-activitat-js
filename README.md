@@ -8,7 +8,7 @@
 
 [3. A103 - Activitat 10 (3a part): IT training](./README.md#a103---activitat-10-3a-part-it-training)
 
-[4. A104 - Activitat 10 (4a part): IT training](./README.md#a104---activitat-10-4a-part-it-training)
+[4. A104 - Activitat 10 (4a part): IT training](./README.md#a104---activitat-10-4a-part-it-training---funcio-evaluaresposta)
 
 
 <hr>
@@ -328,7 +328,7 @@ Modifica el fitxer ```preguntes.js```, perquè crei l'estructura de pregunta cre
 Modifica el fitxer ```preguntes.js```, perquè crei l'estructura de pregunta creant un element **```article```** tant si es tracta d'una pregunta de tipus ```tx``` (aquesta part ja la tens), com si es tracta si es tracta d'una pregunta de tipus ```ra```.
 
 
-# A104 - Activitat 10 (4a part): IT training - Funció EvaluaResposta
+# A104 - Activitat 10 (4a part): IT training - Funcio EvaluaResposta
 
 A partir de la branca amb el nom **```<CognomAlumne>-3aEntrega```**, crear una branca amb el nom **```<CognomAlumne>-4aEntrega```**, on **```<CognomAlumne>```** és el cognom de l'alumne, sense el nom de l'alumne.
 
