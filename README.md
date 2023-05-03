@@ -8,7 +8,7 @@
 
 [3. A103 - Activitat 10 (3a part): IT training](./README.md#a103---activitat-10-3a-part-it-training)
 
-[4. A104 - Activitat 10 (4a part): IT training](./README.md#a104---activitat-10-4a-part-it-training---funcio-evaluaresposta)
+[4. A104 - Activitat 10 (4a part): IT training - Funció EvaluaResposta](./README.md#a104---activitat-10-4a-part-it-training---funcio-evaluaresposta)
 
 
 <hr>
