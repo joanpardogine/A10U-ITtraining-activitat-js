@@ -337,6 +337,6 @@ Abans de fer res, cal que en el fitxer **```README.md```** detallis, sota el tit
 
 La funció caldrà que sigui cridada quan es pressioni el botó **Següent**, de cada pregunta.
 
-Abans de procedir amb el desenvolupament, i una vegada ja hagueu fet l'analisi i el disseny de la funció, cal que creu un **```issue```** amb el titol "Analisi i el disseny de la funció EvaluaResposta fet!", on cal que em mencioneu **```@joanpardogine```**. Un cop hagi avaluat l'analisi i el disseny, tancaré l'**```issue```** i podreu procerdir a fer el desenvolpament.
+Abans de procedir amb el desenvolupament, i una vegada ja hagueu fet l'analisi i el disseny de la funció, cal que creu un **```issue```** amb el titol "**Analisi i el disseny de la funció EvaluaResposta fet!**", on cal que em mencioneu **```@joanpardogine```**. Un cop hagi avaluat l'analisi i el disseny, tancaré l'**```issue```** i podreu procerdir a fer el desenvolpament.
 
 
