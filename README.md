@@ -8,6 +8,8 @@
 
 [3. A103 - Activitat 10 (3a part): IT training](./README.md#a103---activitat-10-3a-part-it-training)
 
+[4. A104 - Activitat 10 (4a part): IT training](./README.md#a104---activitat-10-4a-part-it-training)
+
 
 <hr>
 
@@ -324,3 +326,16 @@ Modifica el fitxer ```preguntes.js```, perquè crei l'estructura de pregunta cre
 ## **Punt 6. 3a part**
 
 Modifica el fitxer ```preguntes.js```, perquè crei l'estructura de pregunta creant un element **```article```** tant si es tracta d'una pregunta de tipus ```tx``` (aquesta part ja la tens), com si es tracta si es tracta d'una pregunta de tipus ```ra```.
+
+
+# A104 - Activitat 10 (4a part): IT training - Funció EvaluaResposta
+
+A partir de la branca amb el nom **```<CognomAlumne>-3aEntrega```**, crear una branca amb el nom **```<CognomAlumne>-4aEntrega```**, on **```<CognomAlumne>```** és el cognom de l'alumne, sense el nom de l'alumne.
+
+Cal que facis una funció amb el nom **```<CognomAlumne>EvaluaResposta```** (on **```<CognomAlumne>```** és el cognom de l'alumne, sense el nom de l'alumne) que validarà si la resposta de l'usuari és correcte o no. Per tant, aquesta funció haurà de retornar un valor booleà en funció de si la resposta és correcta o no. De moment, només de les preguntes que no són de text, ja que és molt més fàcil.
+
+Abans de fer res, cal que en el fitxer **```README.md```** detallis, sota el titol "## Plantejament funcio **```EvaluaResposta```**", quin plantejament seguiràs per resoldre el que se us demana.
+
+La funció caldrà que sigui cridada quan es pressioni el botó **Següent**, de cada pregunta.
+
+
