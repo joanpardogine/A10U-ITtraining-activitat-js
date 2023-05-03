@@ -10,7 +10,6 @@
 
 [4. A104 - Activitat 10 (4a part): IT training - Funció EvaluaResposta](./README.md#a104---activitat-10-4a-part-it-training---funcio-evaluaresposta)
 
-
 <hr>
 
 **ITtraining** és un portal web que té com a objectiu oferir als usuaris una sèrie de [**```serious 
@@ -337,5 +336,7 @@ Cal que facis una funció amb el nom **```<CognomAlumne>EvaluaResposta```** (on 
 Abans de fer res, cal que en el fitxer **```README.md```** detallis, sota el titol "## Plantejament funcio **```EvaluaResposta```**", quin plantejament seguiràs per resoldre el que se us demana.
 
 La funció caldrà que sigui cridada quan es pressioni el botó **Següent**, de cada pregunta.
+
+Abans de procedir amb el desenvolupament, i una vegada ja hagueu fet l'analisi i el disseny de la funció, cal que creu un **```issue```** amb el titol "Analisi i el disseny de la funció EvaluaResposta fet!", on cal que em mencioneu **```@joanpardogine```**. Un cop hagi avaluat l'analisi i el disseny, tancaré l'**```issue```** i podreu procerdir a fer el desenvolpament.
 
 
