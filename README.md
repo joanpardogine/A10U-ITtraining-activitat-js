@@ -331,7 +331,7 @@ Modifica el fitxer ```preguntes.js```, perquè crei l'estructura de pregunta cre
 
 A partir de la branca amb el nom **```<CognomAlumne>-3aEntrega```**, crear una branca amb el nom **```<CognomAlumne>-4aEntrega```**, on **```<CognomAlumne>```** és el cognom de l'alumne, sense el nom de l'alumne.
 
-Cal que facis una funció amb el nom **```<CognomAlumne>EvaluaResposta```** (on **```<CognomAlumne>```** és el cognom de l'alumne, sense el nom de l'alumne) que validarà si la resposta de l'usuari és correcte o no. Per tant, aquesta funció haurà de retornar un valor booleà en funció de si la resposta és correcta o no. De moment, només de les preguntes que no són de text, ja que és molt més fàcil.
+Cal que facis una funció amb el nom **```<CognomAlumne>EvaluaResposta```** (on **```<CognomAlumne>```** és el cognom de l'alumne, sense el nom de l'alumne) que validarà si la resposta de l'usuari és correcte o no. Per tant, aquesta funció haurà de retornar un valor booleà en funció de si la resposta és correcta o no. De moment, només de les preguntes que no són de text (**```tx```**), ni tampoc són check box (**```ch```**), ja que és molt més fàcil. És a dir, de moment només funcionarà per aquelles preguntes que siguin de tipus **```radio button```** (**```ra```**) i **```select option```** (**```so```**).
 
 Abans de fer res, cal que en el fitxer **```README.md```** detallis, sota el titol "## Plantejament funcio **```EvaluaResposta```**", quin plantejament seguiràs per resoldre el que se us demana.
 
