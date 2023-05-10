@@ -26,6 +26,10 @@ function creaTitol(tecnologiaRebuda) {
 }
 
 function creaPregunta(index) {
+    let vectorElementLabel = [4]; 
+    let vectorElementInput = [4];
+    let vectorElementSpan = [4];
+
     // Creem un element de tipus "article" per crear una pregunta
     let cadenaQtatPreguntes = ` de ${preguntes.length}`;
     let tipusDePregunta = preguntes[index].tipusPreg;
@@ -66,8 +70,15 @@ function creaPregunta(index) {
 
     // Fins aquí tots els tipus de respostes són iguals! 
 
+    let respostes = [4];
+
+    respostes[0]=preguntes[index].respostaA;
+    respostes[1]=preguntes[index].respostaB;
+    respostes[2]=preguntes[index].respostaC;
+    respostes[3]=preguntes[index].respostaD;
+
     switch (tipusDePregunta){
-        // Per crear la pregunta si és de tpus text tx
+        // Per crear la pregunta si és de tipus text tx
         case "tx":
             let elementLabel = document.createElement("label");
             elementLabel.classList.add("opcio");
@@ -86,8 +97,31 @@ function creaPregunta(index) {
             break;
             
             
-        // Per crear la pregunta si és de tpus select option so
+        // Per crear la pregunta si és de tipus select option so
         case "so":
+            vectorElementLabel[0] = document.createElement("label");
+            vectorElementLabel[0].classList.add("opcio");
+            vectorElementLabel[0].classList.add("ample100");
+            
+            //Create and append select list
+            let selectList = document.createElement("select");
+            selectList.id = `select-${index+1}`;
+            selectList.classList.add("opcio");
+            selectList.classList.add("ample100");
+
+            selectList.setAttribute("name", `resp-${index+1}`);
+            
+            //Create and append the options
+            for (let i = 0; i < respostes.length; i++) {
+                let option = document.createElement("option");
+                option.value = i;
+                option.text = respostes[i];
+                selectList.appendChild(option);
+            }
+            vectorElementLabel[0].appendChild(selectList);
+            // divResposta.appendChild(selectList);
+            divResposta.appendChild(vectorElementLabel[0]);
+
             /*
             tipus so
             <label class="opcio ample100">
@@ -101,13 +135,45 @@ function creaPregunta(index) {
             */
             
             break;
-        // Per crear la pregunta si és de tpus check box ch
+        // Per crear la pregunta si és de tipus check box ch
 
         case "ch":
+            for (let i = 0; i < respostes.length; i++) {
+                vectorElementLabel[i] = document.createElement("label");
+                vectorElementLabel[i].classList.add("opcio");
+                vectorElementLabel[i].classList.add("ample45");
+                vectorElementLabel[i].innerHTML = respostes[i];
                 
+                vectorElementInput[i] = document.createElement("input");
+                vectorElementInput[i].setAttribute("id", `resp-0${index+1}`); 
+                vectorElementInput[i].setAttribute("type", "checkbox");
+                vectorElementInput[i].setAttribute("name", `resp-0${index+1}`);
+                vectorElementInput[i].setAttribute("value", i);
+
+                divResposta.appendChild(vectorElementInput[i]);
+                divResposta.appendChild(vectorElementLabel[i]);
+            }
             break;
-        // Per crear la pregunta si és de tpus radio button ra
+        // Per crear la pregunta si és de tipus radio button ra
             case "ra":
+                for (let i = 0; i < respostes.length; i++) {
+                    vectorElementLabel[i] = document.createElement("label");
+                    vectorElementLabel[i].classList.add("opcio");
+                    vectorElementLabel[i].classList.add("ample45");
+                    
+                    vectorElementInput[i] = document.createElement("input");
+                    vectorElementInput[i].setAttribute("id", `resp-${index+1}`);
+                    vectorElementInput[i].setAttribute("type", "radio");
+                    vectorElementInput[i].setAttribute("name", `resp-${index+1}`);
+                    vectorElementInput[i].setAttribute("value", respostes[i]);
+                    
+                    vectorElementSpan[i] = document.createElement("span");
+                    vectorElementSpan[i].innerHTML = respostes[i];
+
+                    vectorElementLabel[i].appendChild(vectorElementInput[i]);
+                    vectorElementLabel[i].appendChild(vectorElementSpan[i]);
+                    divResposta.appendChild(vectorElementLabel[i]);
+                }
                 /*
                 tipus RA
                 <label class="opcio ample45">
@@ -212,7 +278,7 @@ titol.appendChild(creaTitol(tecnologia));
 // Inicialització de les preguntes
 let preguntes = [{
         tipusPreg: "tx",
-        enunciat: "Quin és l'origen del nom Python?",
+        enunciat: "Quin és l'origen del nom Python? tx",
         respostaA: "",
         respostaB: "",
         respostaC: "",
@@ -221,7 +287,7 @@ let preguntes = [{
     },
     {
         tipusPreg: "tx",
-        enunciat: "Quin és el creador de Python?",
+        enunciat: "Quin és el creador de Python? tx",
         respostaA: "",
         respostaB: "",
         respostaC: "",
@@ -230,7 +296,7 @@ let preguntes = [{
     },
     {
         tipusPreg: "ra",
-        enunciat: "Quina és la sintaxi correcta per sortir \"Hello World\" a Python?",
+        enunciat: "Quina és la sintaxi correcta per sortir \"Hello World\" a Python? ra",
         respostaA: "echo(\"Hello World\");",
         respostaB: "print(Hello World);",
         respostaC: "print(\"Hello World\")",
@@ -239,7 +305,7 @@ let preguntes = [{
     },
     {
         tipusPreg: "so",
-        enunciat: "Com  inseriu COMENTARIS al codi Python?",
+        enunciat: "Com  inseriu COMENTARIS al codi Python? so",
         respostaA: "// Això és un comentari",
         respostaB: "& Això és un comentari",
         respostaC: "\"\"\" Això és un comentari\"\"\"",
@@ -248,7 +314,7 @@ let preguntes = [{
     },
     {
         tipusPreg: "ch",
-        enunciat: "Quin NO és un nom de variable legal a Python?",
+        enunciat: "Quin NO és un nom de variable legal a Python? ch",
         respostaA: "LaMevaVariable",
         respostaB: "_LaMevaVariable",
         respostaC: "La_Meva_Variable",
@@ -300,6 +366,7 @@ function pardoAvaluaResposta() {
         case "ch":
             console.log("És un ch");
             // respostaUsuari[]           <=== correcta: ["D","C"]
+            
             break;
         case "tx":
             console.log("És un tx");
