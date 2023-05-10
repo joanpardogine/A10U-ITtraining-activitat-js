@@ -371,4 +371,5 @@ Cal que quan es mostri qualsevol pregunta, el botó **```Seguent```** aparegui c
 En aquesta ocasió cal que:
 
 **1.** al **```README.md```** facis una explicació del com faràs el que es demana, i
+
 **2.** desenvolupis el codi necessari per assolir el que es demana.
