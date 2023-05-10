@@ -1,6 +1,5 @@
 'use strict'
 
-
 function creaTitol(tecnologiaRebuda) {
     let titol = document.createElement("span")
     // Creem un element de tipus "span" per la primera part del titol
@@ -67,25 +66,62 @@ function creaPregunta(index) {
 
     // Fins aquí tots els tipus de respostes són iguals! 
 
-    let elementLabel = document.createElement("label");
-    elementLabel.classList.add("opcio");
-    elementLabel.classList.add("ample100");
+    switch (tipusDePregunta){
+        // Per crear la pregunta si és de tpus text tx
+        case "tx":
+            let elementLabel = document.createElement("label");
+            elementLabel.classList.add("opcio");
+            elementLabel.classList.add("ample100");
+            
+            let elementInput = document.createElement("input");
+            
+            elementInput.setAttribute("type", "text");
+            elementInput.setAttribute("id", `resp-0${index+1}`); // Pregunta #${index+1}
+            elementInput.setAttribute("name", "resposta1");
+            elementInput.setAttribute("placeholder", placeHolderEntraResposta);
+            
+            elementLabel.appendChild(elementInput);
+            
+            divResposta.appendChild(elementLabel);
+            break;
+            
+            
+        // Per crear la pregunta si és de tpus select option so
+        case "so":
+            /*
+            tipus so
+            <label class="opcio ample100">
+            <select id="resp-XX">
+            <option id="resp-XX-00" value="A" selected>&lt;Escull una de les següents opcions.></option>
+            <option id="resp-XX-01" value="B" >At vero eos et accusamus et iusto odio</option>
+            <option id="resp-XX-02" value="C" >Et harum quidem rerum facilis est et expedita</option>
+            <option id="resp-XX-03" value="D" >Temporibus autem quibusdam et aut officiis debitis</option>
+            </select>
+            </label>
+            */
+            
+            break;
+        // Per crear la pregunta si és de tpus check box ch
 
-    let elementInput = document.createElement("input");
+        case "ch":
+                
+            break;
+        // Per crear la pregunta si és de tpus radio button ra
+            case "ra":
+                /*
+                tipus RA
+                <label class="opcio ample45">
+                <input type="radio" name="preg_XX" id="resp-XX-01" value="A"/>
+                <span>Seda ut perspiciatis unde omnis</span>
+                </label>
+                */            
 
-    elementInput.setAttribute("type", "text");
-    elementInput.setAttribute("id", `resp-0${index+1}`); // Pregunta #${index+1}
-    elementInput.setAttribute("name", "resposta1");
-    elementInput.setAttribute("placeholder", placeHolderEntraResposta);
-
-    elementLabel.appendChild(elementInput);
-
-    divResposta.appendChild(elementLabel);
-        
+            break;
+          
+        }
     // A partir d'aquí tots els tipus de respostes TORNEN a ser iguals!
-
     elementArticle.appendChild(divResposta);
-    
+           
     // Creem l'espai dels botons
     let botons = document.createElement("div");
     
@@ -109,10 +145,16 @@ function creaPregunta(index) {
 
 
 function passaSeguent() {
+
+    // pardoAvaluaResposta();  NO VA AQUI
+
     let elementPreguntaActual = document.getElementsByName(`preg-0${preguntaActual}`);
     let elementPreguntaSeguent = document.getElementsByName(`preg-0${preguntaActual+1}`);
 
     if (elementPreguntaSeguent.length == 0) {
+    
+        // dins d'un for del vector prenguntes!!!
+        // pardoAvaluaResposta(i)
 
         let elementPuntuacio = document.getElementsByName(`Puntuacio`);
         console.log(`resposta`);
@@ -123,16 +165,16 @@ function passaSeguent() {
         elementPuntuacio[0].classList.add("elementVisible");
     } else {
         // alert(`preg-0\${preguntaActual} = preg-0${preguntaActual}`);
+        preguntaActual += 1;
         console.log(`preg-0\${preguntaActual} = preg-0${preguntaActual}`);
         elementPreguntaActual[0].classList.remove("elementVisible");
         elementPreguntaActual[0].classList.add("elementOcult");
-        preguntaActual += 1;
         elementPreguntaSeguent[0].classList.remove("elementOcult");
         elementPreguntaSeguent[0].classList.add("elementVisible");
     }
 }
 
-function creaPuntuacio(index) {
+function creaPuntuacio() {
     let elementPuntuacio = document.createElement("article");
 
     elementPuntuacio.setAttribute("name", "Puntuacio");
@@ -211,14 +253,14 @@ let preguntes = [{
         respostaB: "_LaMevaVariable",
         respostaC: "La_Meva_Variable",
         respostaD: "La-Meva-Variable",
-        correcta: ["D"]
+        correcta: ["D","C"]
     }
 ];
 
 let qtatPreguntes = preguntes.length;
 let preguntaActual = 1;
 
-console.log(`El nomste serious games té ${qtatPreguntes}`);
+console.log(`El nostre serious games té ${qtatPreguntes}`);
 
 // Localitzem el primer element [0] de tipus main
 let elementMain = document.getElementsByTagName("main")[0];
@@ -231,3 +273,54 @@ preguntes.forEach(function callback(pregunta, index) {
 });
 
 elementMain.appendChild(creaPuntuacio());
+
+function pardoAvaluaResposta() {
+    let respostaCorrecta = false;
+    let respostaUsuari;
+    // let sellecioUsuari = 0;
+    switch (preguntes[preguntaActual - 1].tipusPreg) {
+        case "ra":
+            for (let i = 0; i < 4; i++) {
+                if (document.getElementById(`resp-${preguntaActual}-${i + 1}`).checked) {
+                    // sellecioUsuari = i + 1;
+                    respostaUsuari = document.getElementById(`resp-${preguntaActual}-${i + 1}`).value;
+                    // respostaUsuari = "A"
+                }
+            }
+            break;
+            case "so":
+                for (let i = 0; i < 4; i++) {
+                    if (document.getElementById(`resp-${preguntaActual}-${i + 1}`).selected) {
+                        // sellecioUsuari = i + 1;
+                        respostaUsuari = document.getElementById(`resp-${preguntaActual}-${i + 1}`).value;
+                        // respostaUsuari = "A"
+                }
+            }
+            break;
+        case "ch":
+            console.log("És un ch");
+            // respostaUsuari[]           <=== correcta: ["D","C"]
+            break;
+        case "tx":
+            console.log("És un tx");
+            // respostaUsuari conté     <=== correcta: ["Monty", "Python"]
+            // let respostaUsuari = document.getElementById(`resp-${numPregunta}-${i + 1}`).value
+            // let respostaUsuari = "El nom de Python ve de la pelicula de Monty Python";
+            // OPCIO A
+            // let result = respostaUsuari.includes("Monty"); ==> TRUE
+            // let result = respostaUsuari.includes("Python"); ==> TRUE
+            // OPCIO B
+            // correcta: ["Monty", "Python"]
+            // let result = correcta.includes(respostaUsuari); ==> TRUE
+            break;
+    }
+
+    // (preguntes[numPregunta - 1].correcta = "A"
+    // respostaUsuari = "A"
+
+    if (preguntes[preguntaActual - 1].correcta == respostaUsuari) {
+        respostaCorrecta = true;
+    }
+    return respostaCorrecta;
+}
+
