@@ -10,6 +10,8 @@
 
 [4. A104 - Activitat 10 (4a part): IT training - Funció EvaluaResposta](./README.md#a104---activitat-10-4a-part-it-training---funcio-evaluaresposta)
 
+[5. A105 - Activitat 10 (5a part): IT training - Boto següent control hi ha text](./README.md#a105---activitat-10-5a-part-it-training---boto-seguent-control-hi-ha-text)
+
 <hr>
 
 **ITtraining** és un portal web que té com a objectiu oferir als usuaris una sèrie de [**```serious 
@@ -360,3 +362,13 @@ Abans de procedir amb el desenvolupament, i una vegada ja hagueu fet l'analisi i
 
 ### Fer un llistat, el més detallat possible, dels passos que seguiríeu per assolir el resultat final. En aquest procés poden aparèixer noves variables.
 
+# A105 - Activitat 10 (5a part): IT training - Boto seguent control hi ha text
+
+A partir de la branca amb el nom **```<CognomAlumne>-4aEntrega```**, crear una branca amb el nom **```<CognomAlumne>-5aEntrega```**, on **```<CognomAlumne>```** és el cognom de l'alumne, sense el nom de l'alumne.
+
+Cal que quan es mostri qualsevol pregunta, el botó **```Seguent```** aparegui com a **```disabled```**, i que automàticament passi a **```enabled```**, tant bon punt l'usuari escrigui alguna cosa a qualsevol quadre de text, o esculli qualsevol de les respostes que ofereix la pregunta.
+
+En aquesta ocasió cal que:
+
+**1.** al **```README.md```** facis una explicació del com faràs el que es demana, i
+**2.** desenvolupis el codi necessari per assolir el que es demana.
