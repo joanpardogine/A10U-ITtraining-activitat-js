@@ -381,5 +381,5 @@ En aquesta ocasió cal que:
 A partir de la branca amb el nom **```<CognomAlumne>-5aEntrega```**, crear una branca amb el nom **```<CognomAlumne>-6aEntrega```**, on **```<CognomAlumne>```** és el cognom de l'alumne, sense el nom de l'alumne.
 
 Cal que:
-1. Quan s'arriva la darrera de les preuntes, el text del botó **```Següent```**, no és **```Següent```**, si no **```Puntuar```**.
+1. Quan s'arriba la darrera de les preguntes, el text del botó **```Següent```**, no és **```Següent```**, si no **```Puntuar```**.
 2. Quan es pressioni el botó **```Puntuar```**, de moment, es faci només l'avaluació de les preguntes de tipus **```so```** i les preguntes de tipus **```ra```**.
