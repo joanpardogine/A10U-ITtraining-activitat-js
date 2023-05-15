@@ -12,6 +12,8 @@
 
 [5. A105 - Activitat 10 (5a part): IT training - Boto següent control hi ha text](./README.md#a105---activitat-10-5a-part-it-training---boto-seguent-control-hi-ha-text)
 
+[6. A106 - Activitat 10 (6a part): IT training - Executa creaPuntuacio per so i ra](./README.md#a106---activitat-10-6a-part-it-training---executa-creapuntuacio-per-so-i-ra)
+
 <hr>
 
 **ITtraining** és un portal web que té com a objectiu oferir als usuaris una sèrie de [**```serious 
@@ -373,3 +375,11 @@ En aquesta ocasió cal que:
 **1.** al **```README.md```** facis una explicació del com faràs el que es demana, i
 
 **2.** desenvolupis el codi necessari per assolir el que es demana.
+
+# A106 - Activitat 10 (6a part): IT training - Executa creaPuntuacio per so i ra
+
+A partir de la branca amb el nom **```<CognomAlumne>-5aEntrega```**, crear una branca amb el nom **```<CognomAlumne>-6aEntrega```**, on **```<CognomAlumne>```** és el cognom de l'alumne, sense el nom de l'alumne.
+
+Cal que:
+1. Quan s'arriva la darrera de les preuntes, el text del botó **```Següent```**, no és **```Següent```**, si no **```Puntuar```**.
+2. Quan es pressioni el botó **```Puntuar```**, de moment, es faci només l'avaluació de les preguntes de tipus **```so```** i les preguntes de tipus **```ra```**.
