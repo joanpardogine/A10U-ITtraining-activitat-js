@@ -5,5 +5,4 @@
 - [ ] Boto anterior
 - [ ] Llegir les preguntes dun JSON
 - [ ] Escriure les respostes com informe
-
-crear sistema de avaluació segons les respostes
+- [ ] Crear sistema de avaluació segons les respostes
