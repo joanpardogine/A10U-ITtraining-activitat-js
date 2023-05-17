@@ -376,10 +376,14 @@ En aquesta ocasió cal que:
 
 **2.** desenvolupis el codi necessari per assolir el que es demana.
 
-# A106 - Activitat 10 (6a part): IT training - Executa creaPuntuacio per so i ra
+# A106 - Activitat 10 (6a part): IT training - Executa **```<CognomAlumne>EvaluaResposta```** per so i ra
 
 A partir de la branca amb el nom **```<CognomAlumne>-5aEntrega```**, crear una branca amb el nom **```<CognomAlumne>-6aEntrega```**, on **```<CognomAlumne>```** és el cognom de l'alumne, sense el nom de l'alumne.
+
+**```<CognomAlumne>EvaluaResposta```** (on **```<CognomAlumne>```** és el cognom de l'alumne, sense el nom de l'alumne)
 
 Cal que:
 1. Quan s'arriba la darrera de les preguntes, el text del botó **```Següent```**, no és **```Següent```**, si no **```Puntuar```**.
 2. Quan es pressioni el botó **```Puntuar```**, de moment, es faci només l'avaluació de les preguntes de tipus **```so```** i les preguntes de tipus **```ra```**.
+
+
