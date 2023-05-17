@@ -12,7 +12,7 @@
 
 [5. A105 - Activitat 10 (5a part): IT training - Boto següent control hi ha text](./README.md#a105---activitat-10-5a-part-it-training---boto-seguent-control-hi-ha-text)
 
-[6. A106 - Activitat 10 (6a part): IT training - Executa creaPuntuacio per so i ra](./README.md#a106---activitat-10-6a-part-it-training---executa-creapuntuacio-per-so-i-ra)
+[6. A106 - Activitat 10 (6a part): IT training - Executa **```<CognomAlumne>EvaluaResposta```** per so i ra](./README.md#a106---activitat-10-6a-part-it-training---executa-cognomalumneevaluaresposta-per-so-i-ra)
 
 <hr>
 
